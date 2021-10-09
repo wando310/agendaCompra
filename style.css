@@ -1,0 +1,98 @@
+*{
+    outline: none;
+    list-style: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteiner-geral{
+    display: flex;
+    background-color: rgb(27, 160, 165);
+    padding: 80px 30px;
+    margin-top: 100px;
+    border-radius: 30px;
+}
+.conteiner-geral h2{
+    background-color: rgb(19, 20, 18);
+    color: rgb(243, 243, 243);
+    padding: 7px;
+    margin: 0px;
+    margin-bottom: -12px;
+    border: solid 3px #4d2b06;
+    border-radius: 40px;
+    text-align: center;
+}
+.conteiner-geral img{
+    width: 50px;
+    height: 50px;
+}
+.show{
+    height: 400px;
+    overflow-y: auto;
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+}
+.product-name{  
+    padding: 5px; 
+}
+.name, .value-pro, .value-data{
+    padding: 0px;
+
+}
+li{
+    font-size: 18px;
+    color: darkorange;
+    background-color: rgb(42, 56, 182);
+    margin: 2px 0px;
+    padding: 5px 30px;
+    text-align: center;
+}
+li:nth-child(even){
+    background-color: rgb(134, 33, 112);
+}
+.product-value, .product-data, .product-value{
+    padding: 5px;
+    margin: 0px -8px;
+}
+
+.form{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(214, 146, 69);
+    padding: 20px;
+    margin: 10px;
+}
+.form input{
+    margin: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: crimson;
+    font-weight: 600;
+}
+.form button{
+    margin: 5px;
+    padding: 3px 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(78, 80, 80);
+    border: none;
+    font-size: 17px;
+}
+.form button:hover{
+    color: rgb(73, 69, 69);
+    background-color: rgb(255, 255, 255);
+}
+.form span{
+    font-size: 23px;
+    color: rgb(11, 66, 184);
+    margin-top: -12px;
+}
+.form h3{
+    margin-top: 30px;
+}
